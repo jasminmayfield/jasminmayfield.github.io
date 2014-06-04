@@ -1,0 +1,38 @@
+h1, h2, h3, h4, h5, h6 {
+	color:#0D98BA;
+	font-family: 'Lobster', cursive;
+	border-bottom: 1px dashed white;
+}
+
+body {
+	background-color: #9ACEEB;
+	border-top:10px solid #CA3767;
+	margin:0;
+	font-family: "Open Sans", sans-serif;
+	color:#414A4C;
+}
+
+#wrapper {
+	width:600px;
+	margin:0 auto;
+}
+
+
+#twitterpage {
+	width: 50px;
+}
+
+.photo {
+	border:15px solid white;
+	width:500px;
+}
+
+a:visited, a:link {
+	color:#CA3767;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
