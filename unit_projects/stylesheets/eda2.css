@@ -1,0 +1,89 @@
+body {
+	margin:0;
+	background-image: url("http://media-cache-ak0.pinimg.com/736x/6c/15/a7/6c15a7296c1bd0d12c4b9c31cd6eea4d.jpg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+#header {
+	height:92px;
+	margin:0;
+	color:#4A646C;
+	font-family:'Montserrat', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	text-align: center;
+	background-color: #bada55;
+	padding-top:25px;
+}
+
+#header h1 {
+	margin: 0;
+}
+
+#sidebar {
+	margin-left:20px;
+	margin-top:40px;
+	border-right: 2px dashed #4A646C;
+	padding-right: 20px;
+    width: 200px;
+ 	float:left;
+}
+
+#sidebar h4{
+ 	font-family:'Montserrat', sans-serif;
+ 	text-transform:uppercase;
+ 	color:#4A646C;
+ 	font-weight: solid;
+ }
+
+ #sidebar p {
+ 	font-family:'Montserrat', sans-serif;
+ 	font-size: 12px;
+ 	font-weight: normal;
+ 	color:#6E5160;
+
+}
+
+#sidebar .photo {
+	width:160px;
+	border:2px solid #4A646C;
+
+}
+
+#content_area {
+	float:left;
+	width:700px;
+	margin-top:30px;
+	margin-left:150px;
+	margin-bottom: 30px;
+	background-color: rgba(255,255,255,0.5);
+	padding-right: 20px;
+}
+
+#content_area p{
+	font-family:'Montserrat', sans-serif;
+	text-transform:uppercase;
+ 	font-size: 32px;
+ 	color:#CD4A4C;
+}
+
+#content_area li{
+	font-family: 'Dosis', sans-serif;
+	color:black;
+	font-weight:lighter;
+}
+
+#footer {
+	clear: both;
+	height:92px;
+	margin:0;
+	font-family:'Montserrat', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	text-align: center;
+	background-color: #bada55;
+	font-size:12px;
+	padding-top:25px;
+	color:white;
+}
