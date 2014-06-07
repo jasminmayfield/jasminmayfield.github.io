@@ -1,0 +1,38 @@
+.photo {
+	width:200px;
+	float:left;
+}
+
+.review {
+	float:left;
+	width:600px;
+	padding:0 30px;
+}
+
+.clear {
+	clear:both;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	color:#414A4C;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 20px;
+}
+
+h2 {
+	color:#FF5050;
+	font-size: 2em;
+}
+
+a:visited, a:link {
+	color:#FF5050;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
