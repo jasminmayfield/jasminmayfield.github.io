@@ -1,21 +1,31 @@
 body {
 	margin:0;
-	background-image: url("http://media-cache-ak0.pinimg.com/736x/6c/15/a7/6c15a7296c1bd0d12c4b9c31cd6eea4d.jpg");
-	background-repeat: no-repeat;
-	background-position: right bottom;
 }
 
 #header {
-	height:92px;
+	height:250px;
 	margin:0;
-	color:#4A646C;
+	color:white;
 	font-family:'Montserrat', sans-serif;
 	text-transform:uppercase;
 	letter-spacing:5px;
 	text-align: center;
 	background-color: #bada55;
 	padding-top:25px;
+	border-bottom: 3px solid #4A646C;
+	border-top: 3px solid #4A646C;
 }
+
+#main_image {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin-left: auto;
+    margin-right: auto;
+    background-image: url(http://hapanom.com/wp-content/uploads/2014/01/BottomBanner1.jpg);
+    background-size: 300px;
+    border:1px #white;
+ }
 
 #header h1 {
 	margin: 0;
@@ -57,21 +67,29 @@ body {
 	margin-top:30px;
 	margin-left:150px;
 	margin-bottom: 30px;
-	background-color: rgba(255,255,255,0.5);
 	padding-right: 20px;
 }
 
-#content_area p{
+#content_area h2{
 	font-family:'Montserrat', sans-serif;
 	text-transform:uppercase;
  	font-size: 32px;
  	color:#CD4A4C;
 }
 
+h2 {
+	font-family:'Montserrat', sans-serif;
+	text-transform:uppercase;
+ 	font-size: 32px;
+ 	color:#CD4A4C;
+ }
+
 #content_area li{
-	font-family: 'Dosis', sans-serif;
-	color:black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color:#414A4C;
 	font-weight:lighter;
+
 }
 
 #footer {
@@ -87,3 +105,32 @@ body {
 	padding-top:25px;
 	color:white;
 }
+
+.steps li{
+	margin-bottom: 20px;
+}
+
+.instructional_photos {
+	width:400px;
+	float:left;
+	margin-top: 20px;
+	margin-right:25px;
+}
+
+.adjectives {
+	font-family: 'Crafty Girls', cursive;
+	color:#CD4A4C;
+	font-size: 28px;
+	text-transform: capitalize;
+	float:left;
+	width:100px;
+	padding-top: 100px;
+	padding-left: 30px;
+}
+
+.clear {
+	clear:both;
+}
+
+
+
