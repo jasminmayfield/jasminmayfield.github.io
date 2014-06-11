@@ -1,0 +1,91 @@
+header#topbanner {
+	border-bottom: 8px solid #333;
+	background-color: #212121;
+	color: white;
+	padding: 20px;
+}
+
+header h1 {
+	float: left;
+	font-family: 'Cinzel';
+	font-size:2.8125em;
+}
+
+header #tagline {
+	float: right;
+	padding-top: 10px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5625em;
+}
+
+#portfolio {
+	background-color: #212121;
+	background-size: 100% auto;
+	background-image: url(https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/t1.0-9/10313648_10154218203410335_4906120228179136668_n.jpg);
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* Portfolio items
+====================================
+*/
+
+#projects {
+	padding: 30px 0;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.project {
+	margin: 10px;
+	width: 240px;
+	float: left;
+	text-align: center;
+}
+
+.project .project_image {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin-left: auto;
+    margin-right: auto;
+    background-size: 200px;
+    border:1px white;
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+}
+
+#project_1 {
+    background-image: url(https://lh3.googleusercontent.com/-gqWw2ln-AFM/AAAAAAAAAAI/AAAAAAAAAAA/p6f_Yd_96Mk/photo.jpg);
+}
+
+#project_2 {
+    background-image: url(http://2.bp.blogspot.com/-sq38gpZadI4/TamOcJeBNSI/AAAAAAAAApc/ipsWYPaKC4Q/s1600/NumberTwoSmall.jpg);
+}
+
+#project_3 {
+    background-image: url(http://womensrabbinicnetwork.files.wordpress.com/2012/06/age-3-crystal-number-for-card-making-1077-p.jpg);
+}
+
+#project_4 {
+    background-image: url(http://www.business-opportunities.biz/wp-content/uploads/2011/02/5231345328_d4c57c6145_z.jpg);
+    background-size: 300px;
+}
+
+#project_5 {
+    background-image: url(http://blogs.lexpress.fr/aularge/wp-content/blogs.dir/671/files/2013/01/numero-4-5-6.gif);
+}
+
+#project_6 {
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/8/8a/6_tag.png)
+}
+
+#projects .project a:visited, #projects .project a:link {
+	text-decoration: none;
+	color:#8BA8B7;
+}
+
+.clear {
+	clear: both;
+}
