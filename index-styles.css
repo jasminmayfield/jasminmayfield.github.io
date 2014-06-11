@@ -9,6 +9,7 @@ header h1 {
 	float: left;
 	font-family: 'Cinzel';
 	font-size:2.8125em;
+	color: rgb(255,255,0);
 }
 
 header #tagline {
@@ -16,12 +17,12 @@ header #tagline {
 	padding-top: 10px;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5625em;
+	color:#979AAA;
 }
 
 #portfolio {
 	background-color: #212121;
-	background-size: 100% auto;
-	background-image: url(https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/t1.0-9/10313648_10154218203410335_4906120228179136668_n.jpg);
+	background-image: url(http://listography.com/user/0278885991/list/2276615575/attachment/c);
 }
 
 body {
@@ -39,7 +40,7 @@ body {
 }
 
 .project {
-	margin: 10px;
+	margin: 20px 10px;
 	width: 240px;
 	float: left;
 	text-align: center;
@@ -52,8 +53,8 @@ body {
 	margin-left: auto;
     margin-right: auto;
     background-size: 200px;
-    border:1px white;
-	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    border: 4px solid white;
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
 }
 
 #project_1 {
@@ -61,19 +62,19 @@ body {
 }
 
 #project_2 {
-    background-image: url(http://2.bp.blogspot.com/-sq38gpZadI4/TamOcJeBNSI/AAAAAAAAApc/ipsWYPaKC4Q/s1600/NumberTwoSmall.jpg);
+    background-image: url(http://1.bp.blogspot.com/-37XfsY6V2-w/UPiZE6b5dtI/AAAAAAAACy8/-Hh9OytlGek/s1600/number-2.jpg);
 }
 
 #project_3 {
-    background-image: url(http://womensrabbinicnetwork.files.wordpress.com/2012/06/age-3-crystal-number-for-card-making-1077-p.jpg);
+    background-image: url(http://1.bp.blogspot.com/-t4uzLffArL0/Tt469WlCx3I/AAAAAAAAAMI/WzJoxRtBGVY/s1600/number+3.jpg);
 }
 
 #project_4 {
-    background-image: url(http://www.business-opportunities.biz/wp-content/uploads/2011/02/5231345328_d4c57c6145_z.jpg);
-    background-size: 300px;
+    background-image: url(http://www.clker.com/cliparts/5/4/u/s/U/Y/number-4-yellow-hi.png);
 }
 
 #project_5 {
+	border: 4px solid teal;
     background-image: url(http://blogs.lexpress.fr/aularge/wp-content/blogs.dir/671/files/2013/01/numero-4-5-6.gif);
 }
 
@@ -83,9 +84,40 @@ body {
 
 #projects .project a:visited, #projects .project a:link {
 	text-decoration: none;
-	color:#8BA8B7;
+}
+
+#projects .project .label {
+	margin-top: 5px;
+	font-weight: bold;
+	color:#353839;
+	background-color: rgba(255,255,255,0.8);
+	padding: 5px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+#projects .project .label:hover {
+	background-color: rgba(255,255,0,0.8);
 }
 
 .clear {
 	clear: both;
+}
+
+footer {
+	text-align: center;
+	background-color: #212121;
+	color: white;
+	border-top: 8px solid #333;
+	padding: 20px;
+	line-height: 1.5em;
+}
+
+footer a:link, footer a:visited {
+	text-decoration: none;
+	color: rgb(255,255,0);
+}
+
+footer a:hover {
+	color: rgb(235,144,143);
 }
