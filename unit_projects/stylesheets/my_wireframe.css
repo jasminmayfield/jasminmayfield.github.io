@@ -1,8 +1,40 @@
-#background body{
-    width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    left: 0px; 
-    top: 0px; 
-    z-index: -1;
- }
+body {
+ 	font-family: 'Droid Sans', sans-serif;
+ 	line-height: 1.5em;
+ 	background-image: url(http://3.bp.blogspot.com/-mvmaXN8reK4/UKSGrkaw-kI/AAAAAAAADNs/IiFdSWfVy3o/s1600/white_grid_paper-background_pattern.jpg);
+}
+
+h2 {
+ 	color: #C8385A;
+}
+
+#photos {
+ 	width:200px
+}
+
+a:link {
+ 	text-decoration: none;
+ 	color: #C8385A;
+}
+ 
+a:hover {
+ 	text-decoration: none;
+ 	color:#1A4876;
+}
+
+hr {
+ 	border-bottom: 1px solid #C8385A;
+ 	border-top: none;
+}
+
+#photos {
+	text-align: center;
+}
+
+#photos img {
+	width:500px;
+}
+
+
+
+
