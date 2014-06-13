@@ -1,0 +1,20 @@
+.photos {
+	width: 600px;
+	margin: 0 auto;
+	display: block;
+	border: 2px solid #414A4C;
+	background-color: white;
+	padding: 20px;
+}
+
+strong {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(245,0,125);
+	text-transform: uppercase;
+}
+
+.code {
+	text-align: center;
+	list-style-type: none;
+}
