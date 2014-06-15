@@ -1,3 +1,8 @@
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
 .photos {
 	width: 600px;
 	margin: 0 auto;
@@ -18,3 +23,5 @@ strong {
 	text-align: center;
 	list-style-type: none;
 }
+
+
