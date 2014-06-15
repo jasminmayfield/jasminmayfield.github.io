@@ -1,0 +1,150 @@
+    
+title {
+    text-transform: uppercase;
+}
+
+header {
+    padding-bottom: 0px;
+    background-color: #6699CC;
+}
+
+#logo {
+    width: 60px;
+    display: inline-block;
+    margin-left: 90px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #414A4C;
+    font-family: Helvetica;
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 40px;
+    display: inline-block;
+            
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+.links {
+    display: block;
+    width: 25%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #6699CC;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FDDB6D;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    background: #CCCCCC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pagebox {
+    background: #FFFFFF;
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid #414a4c;
+
+}
+    
+#main_content {
+    float: left;
+    width: 70%;
+    margin-left: 40px;
+}
+
+#main_content #body_text {
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+
+#main_content #image {
+    float: right;
+    width: 25%;
+    padding: 10px;
+}
+
+#content_box {
+    float: left;
+    width: 70%;
+    margin-left: 40px;
+}
+
+
+#pears {
+    align: right;
+    float: right;
+    width: 200px; 
+}
+
+#sidebar {
+    float: right;
+    width: 15%;
+    background: #AAAAAA;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid #414a4c;
+}
+
+.pagebox #video{
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #4477aa;
+}
+       
+.clear {
+    clear: both;
+}
+
+#footer {
+    text-align: center;
+    border-top: 3px solid #414a4c; 
+    background-color: #6699CC;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+
+}
+
+#video {
+    padding-left: 100px;
+}
+

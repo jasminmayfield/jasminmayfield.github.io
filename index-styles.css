@@ -80,7 +80,11 @@ body {
 }
 
 #project_6 {
-	background-image: url(http://upload.wikimedia.org/wikipedia/commons/8/8a/6_tag.png)
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/8/8a/6_tag.png);
+}
+
+#project_7 {
+	background-image: url(http://www.everythingicafe.com/wp-content/uploads/2013/01/ios-7.gif);
 }
 
 #projects .project a:visited, #projects .project a:link {
