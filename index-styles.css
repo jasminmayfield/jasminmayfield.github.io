@@ -91,6 +91,10 @@ body {
 	background-image: url(http://thepadre10.files.wordpress.com/2013/03/number-8.jpg);
 }
 
+#project_9 {
+	background-image: url(http://hackmiami.org/wp-content/uploads/2012/05/hope91.png);
+}
+
 #projects .project a:visited, #projects .project a:link {
 	text-decoration: none;
 }
