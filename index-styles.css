@@ -92,7 +92,11 @@ body {
 }
 
 #project_9 {
-	background-image: url(http://hackmiami.org/wp-content/uploads/2012/05/hope91.png);
+	background-image: url(http://hackmiami.org/wp-content/uploads/2012/05/hope91.png);x
+}
+
+#project_10 {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoWMDa-7xzi5ddmVSv6LDTSwOivxF_Qwc-QTct6X7lff4oUNk3);
 }
 
 #projects .project a:visited, #projects .project a:link {
