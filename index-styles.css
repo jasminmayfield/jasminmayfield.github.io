@@ -99,6 +99,16 @@ body {
 	background-image: url(http://100scopenotes.files.wordpress.com/2010/02/number-10-logo.jpg?w=490&h=490);
 }
 
+#project_11 {
+	background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTGfXOgZri-1oEmQ5oLltMGDr9WhlcYnpgEwcI7vklYVtOUKemx);
+}
+
+#project_12 {
+	background-image: url(http://pad1.whstatic.com/images/thumb/1/18/Factor-a-Number-Step-2Bullet1.jpg/670px-Factor-a-Number-Step-2Bullet1.jpg);
+}
+
+
+
 #projects .project a:visited, #projects .project a:link {
 	text-decoration: none;
 }
