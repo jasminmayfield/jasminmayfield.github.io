@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Array vs The Hash</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/week4_technical.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		
+		
+	</head>
+	<body>
+		<div id="background">
+    		<img src="https://scontent-b-lax.xx.fbcdn.net/hphotos-xfa1/t1.0-9/398598_10152388447210335_19010282_n.jpg" class="stretch"/>
+		</div>
+
+
+		<section id="content">
+
+			<header>
+		    	<div id="my_face"></div>
+
+		    	<div class="small_text"> 
+		    		<p >Triangles are my favorite shape. Three points where two lines meet.</p><br>
+		    		<p>Toe to toe, back to back, let's go, my love, it's very late.</p>
+		    	</div>
+
+		    	
+		    	<ul id="social_buttons">
+		    		<li><a href="http://twitter.com/jasminmayfield"><i class="fa fa-twitter-square"></i></a></li>
+		    		<li><a href="http://www.linkedin.com/pub/jasmin-mayfield/18/690/242"><i class="fa fa-linkedin"></i></a></li>
+		    		<li><a href="https://www.facebook.com/jasminmayfield"><i class="fa fa-facebook-square"></i></a></li>
+		    	</ul>
+			</header>
+	
+		
+			
+			<h2>The Array vs The Hash</h2>
+		
+			
+			<h3>ARRAY and HASHES 101</h3>
+			<ul class="reasons_list">
+				<li><strong>What are they?</strong> Both are classes. Both are collection methods and ways of storing data. In Ruby, you store data in hashes or arrays so you can access them as and when required.</li> 
+				<li><strong>What do they look like?</strong> They both use bracket notation. The difference is that square brackets [ ] are used for team array and squiggly brackets { } are used for team hash.</li>
+			</ul>
+		
+			<div id = "bullet_removal"><img class = "diagrams" src="images/syntaxhash_array.JPG"/></div>
+
+			<ul>
+				<li><strong class="headings">What's "team key" and "team value"? As per your hash diagram. </strong>Great question there. This is actually what makes a hash unique from an array. Keys and values are essentially Ruby's way of classifying its data, within the "hash collection". Here in our diagram we have "team key" represented by "one", "two" and "three". Keys go first in your array and are followed by their corresponding "value" counterparts, in this instance we have "dog", "fox" and "lamb". So "one" is the same as "dog", "two" is the same as "fox" and "three" is the same as "lamb". So in summary, a hash points an object to another object, unlike an array which purely just stores the list of objects with no onward reference.</li>
+				<li ><strong class="headings">Expanding on collections...</strong> Everything in Ruby is an object. Therefore anything can really be stored in either an array or a hash, including variables, strings, integers, floats and objects. You can have an array stored within an array (within multiple arrays even) - this is referred to as a <a href="http://ruby.about.com/od/Writing-a-2048-Clone-in-Ruby/fl/Two-Dimensional-Arrays-in-Ruby.htm" target="_blank">two-dimensional array</a>. Similarly you can have hashes stored within an array and arrays stored within hashes. It works both ways. For example you may have a hash full of students that you look up with a key ID that contains an array that orders the students by admission date.</li>
+			</ul>
+
+			<h3>HOW DO THEY DIFFER? WHEN WOULD YOU USE AN ARRAY vs WHEN TO USE A HASH</h3>
+
+			<p>How do you know if you need to use an array over a hash? They seem pretty similar but they are quite different. Here's some of the things I've identified that seem to help me:</p>
+				<ul class="reasons_list">
+					<li><strong>ORDERING</strong> With arrays the slots are lined up in a row, each one is numbered starting from '0'. With hashes the slots aren't in any sequential order of significance, they're jumbled up. You can also use any object to refer to a slot, not just a number as in the case of arrays. So ask yourself, do the things/objects you're trying to store need a set order? If yes, use an array. If the things/objects you're trying to keep track of don't really fit into an ordered list, then best use a hash.</li>
+					<li><strong>ACCESS</strong> Think about accessing your data. Do you need to remember and match the item to a specific slot? If yes, use an array, if not, use a hash. Hashes certainly provide more flexibility in this instance, however arrays are really efficient, also in this instance.</li>
+				</ul>
+
+			<div class="other_blogs">
+				<hr>
+				<p>
+					READ MORE | <a href="week1_technicalblog.html">Blog 1</a> | <a href="week1_culturalblog.html">Blog 2</a> | <a href="week2_technical.html">Blog 3</a> | <a href="week3_technical.html">Blog 4</a> | <a href="week3_cultural.html">Blog 5</a>  | <a href="week4_cultural_blog.html">Blog 6</a> | <a href="week4_technical.html">Blog 7</a>
+				</p>
+				
+			</div>
+
+		</section>
+		
+		
+		<footer>	
+			<p>Thanks for reading my blog. Feel like having a chat? Send me an <a href="mailto:jasmin.mayfield@gmail.com">email</a>.</p>
+		</footer>
+		
+	</body>
+	</html>
