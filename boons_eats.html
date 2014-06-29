@@ -4,9 +4,23 @@
 	<title>Boon's Eats</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="boons_eats.css">
+	<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 </head>
 
 <body>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+ 
+    	$('.estab_names').hide();
+    	$('h2').click(function(e){
+    		$('.estab_names').slideDown();
+    	});
+ 
+	});
+	</script>
+
 	<header>
 		<h1>The eat drink merry-go-round</h1>
 	</header>
