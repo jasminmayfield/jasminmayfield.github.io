@@ -1,5 +1,5 @@
 header#topbanner {
-	border-bottom: 8px solid #333;
+	border-bottom: 2px solid rgb(255,255,0);
 	background-color: #212121;
 	color: white;
 	padding: 20px;
@@ -22,7 +22,8 @@ header #tagline {
 
 #portfolio {
 	background-color: #212121;
-	background-image: url(http://listography.com/user/0278885991/list/2276615575/attachment/c);
+	background-image: url(http://www.lanrentuku.com/savepic/img/allimg/1206/5-120601095335-50.jpg);
+	/*background-image: url(http://listography.com/user/0278885991/list/2276615575/attachment/c);*/
 }
 
 body {
@@ -135,7 +136,7 @@ footer {
 	text-align: center;
 	background-color: #212121;
 	color: white;
-	border-top: 8px solid #333;
+	border-top: 2px solid rgb(255,255,0);
 	padding: 20px;
 	line-height: 1.5em;
 }
