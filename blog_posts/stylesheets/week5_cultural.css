@@ -1,0 +1,27 @@
+h3 {
+	text-align: center;
+	color: rgb(245,0,125);
+}
+h4 {
+	text-align: center;
+	color: rgb(245,0,125);
+}
+ul.q_and_a li:nth-child(odd) {
+	background-color: rgba(0,0,0,0.1);
+	padding: 10px;
+	margin: 0 -10px;
+}
+/*uls of class q&a will be styled. If there was a space between l and q it would mean that q&a in a ul would be styled*/
+ul.q_and_a {
+	list-style-type: none;
+	padding: 0;
+}
+.extra_photos {
+	margin: 0 auto;
+	display: block;
+	width: 700px;
+	border: 3px solid white;
+	margin-bottom: 10px;
+}
+
+
