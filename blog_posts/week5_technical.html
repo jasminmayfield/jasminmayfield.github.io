@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Pairing and Feedback</title>
+		<title>Class Visibility</title>
 		<link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/week5_technical.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
@@ -35,37 +36,44 @@
 	
 		
 			
-			<h2>HEADER</h2>
+			<h2>CLASS VISIBILITY AND THE THREE 'P's.</h2>
 
-			<h3>HEADER</h3>
-				<ol class="reasons_list">
-					<li><strong>listlistlist</strong> listlistlist</li>
-
-					<li><strong>listlistlist.</strong> listlistlist</li>
-					<li><strong>listlistlist</strong> listlistlist</li>
-				</ol>
-
-				<p>
-					<strong>Paragraph</strong>Paragraph<br>
-
-					<strong>Paragraph</strong>Paragraph<br>
-				</p>
-
-		
+			<img class = "extra_photos" src = "images/nogozone.jpg"/>
 			
-			<h3>HEADER</h3>
-			<ol class="reasons_list">
-				<li><strong>listlistlist</strong> listlistlist</li>
 
-				<li><strong>listlistlist.</strong> listlistlist</li>
-				<li><strong>listlistlist</strong> listlistlist</li>
-			</ol>
+			<h3>LITTLE P, LITTLE P, LET ME IN.</h3>
+			<p>Flavour of the week this week was Ruby classes. Classes provide an excellent way of organizing your code and are like a blueprint for some specific object. They contain instruction guides (class methods) for defining the behaviour and function of the Ruby class object they sit in, as well as what I think of as "class children" (derived from the parent blueprint class) - what is referred to in Ruby as "instances of the class".</p>
 
-			<p>
-				<strong>Paragraph</strong>Paragraph<br>
+			<p>Ruby has a couple of cool tricks in restricting or shutting off access to these class methods which means they can't be called or used in other areas of your code. This is what Ruby calls "class visibility" - a toolbelt of three different methods (belonging to module) known as private, protected and public. The first two are essentially limited zones that are robust and don't let any old tom, dick or harry in. They are the brick house to extend the metaphor of the three little pigs 
+			(but with a sealed chimney - nothing is getting in there). They dynamically alter the visibility of your class methods, and as a result influence the visibility of all following declarations until a new visibility is set or the end of the declaration-body is reached.</p>
+			<p>Let's take a deeper look.</p>
 
-				<strong>Paragraph</strong>Paragraph<br>
-			</p>
+			<h3>PUBLIC</h3>
+			<ul class="main_points">
+				<li>Methods that are accessible by anyone.</li>
+				<li>Anyone can call it. It can be called from another instance method as well as from outside of the class entirely.</li>
+				<li>In other words, public methods are ones without restrictions on how and when they can be called. They are free agents, waiting for your call.</li>
+			</ul>
+			
+			<h3>PRIVATE</h3>
+			<ul class="main_points">
+				<li>Private methods are the tightest setting of all. They're the brick house that won't let anything in or allow its methods to be projected or called in other areas of your code. A private method cannot be called with an explicit receiver at all, even if that receiver is "self".</li>
+				<li>So when can you call it then? A private method can be called from within the calling object. So other methods of the same class can call the private methods.</li>
+				<li>So when would you use it, why would you use it, what is its benefit and contribution to the greater world? We make methods private when we want to control how and when they're called within the class.</li>
+				<li>How do you write it into your code? To make a class method private, we simply have to place a private keyword before it. All methods below "private" in the class definition will remain in privacy mode until otherwise instructed by you. To break privacy mode simply reset by applying a public or protected method.</li>
+			</ul>
+			
+			<h3>PROTECTED</h3>
+			<ul class="main_points">
+				<li>This method is similar to private methods however the big difference is that protected methods can be called by other instances of the same class.</li>
+				<li>In other words, within the class and by other objects of the same class.</li>
+			</ul>
+
+			<h3>VISIBILITY vs SECURITY</h3>
+			<p>It's easy to think of visibility as a type of security. That you can lock the internal state of your objects away and that it can't be accessed because private methods are barring the way. This just isn't true. Private methods exist to separate interface from function. There's nothing really stopping a user from accessing private methods, should they really want to.</p><br>
+
+
+			<p>(In the words of Sesame Street) This blog was brought to you by the letter p.</p><br>
 
 			<div class="other_blogs">
 				<hr>

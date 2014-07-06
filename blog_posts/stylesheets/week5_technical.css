@@ -1,0 +1,17 @@
+.extra_photos {
+	width: 550px;
+	text-align: center;
+	padding-left: 180px;
+}
+h3 {
+	text-align: center;
+}
+
+ul.main_points {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.main_points li {
+	margin: 10px 0;
+}
