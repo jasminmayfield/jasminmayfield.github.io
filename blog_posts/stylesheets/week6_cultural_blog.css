@@ -1,0 +1,15 @@
+.stand_out {
+	font-family: 'Pacifico', cursive;
+	line-height: 40px;
+	color: black;
+	font-size: 40px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 30px;
+}
+h4 {
+	font-family: Tahoma;
+}
+.extra_photos {
+	text-align: center;
+}
+

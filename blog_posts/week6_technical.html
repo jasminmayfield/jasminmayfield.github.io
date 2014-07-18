@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Classes vs Modules</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/week6_technical.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		
+		
+	</head>
+	<body>
+		<div id="background">
+    		<img src="https://scontent-b-lax.xx.fbcdn.net/hphotos-xfa1/t1.0-9/398598_10152388447210335_19010282_n.jpg" class="stretch"/>
+		</div>
+
+
+		<section id="content">
+
+			<header>
+		    	<div id="my_face"></div>
+
+		    	<div class="small_text"> 
+		    		<p >Triangles are my favorite shape. Three points where two lines meet.</p><br>
+		    		<p>Toe to toe, back to back, let's go, my love, it's very late.</p>
+		    	</div>
+
+		    	
+		    	<ul id="social_buttons">
+		    		<li><a href="http://twitter.com/jasminmayfield"><i class="fa fa-twitter-square"></i></a></li>
+		    		<li><a href="http://www.linkedin.com/pub/jasmin-mayfield/18/690/242"><i class="fa fa-linkedin"></i></a></li>
+		    		<li><a href="https://www.facebook.com/jasminmayfield"><i class="fa fa-facebook-square"></i></a></li>
+		    	</ul>
+			</header>
+	
+		
+			
+			<h2>CLASSES VS MODULES</h2>
+
+			<p>We've yet to really cover modules in bootcamp in any great detail at the time of writing this post. From what I've researched, classes and modules are two <em>totally</em>  different things in Ruby, although they have similarities which means that one can easily mistake their use and implementation when programming. Here's a hard and fast break-down on the key differences between classes and modules. Happy readin all!</p>
+
+
+			<h3>MODULES and CLASSES. KEY DIFFERENCES 101</h3>
+				<ol class="reasons_list">
+					<li><strong>Modules</strong> are a collection of methods and constants. The methods in a module may be instance methods or module methods. Instance methods appear as methods in a class when the module is included, module methods do not. Conversely, module methods may be called without creating an encapsulating object, while instance methods may not. </li>
+
+					<li><strong>Modules further defined.</strong> Modules are a construct that serve as a container. The container can be used for name-spacing, including different data, or augmenting your existing classes with different behaviour. </li>
+
+					<li><strong>I'm confused. How does this compare to a class?</strong> Well, modules provide methods that are used <strong><em>across</em></strong> multiple classes - think about them as "libraries" of methods. So whereas a class has methods which can be used across "instances of its own class", a module goes one step beyond by providing methods which can be used across a wide number of classes.</li>
+
+					<li><strong>Leading on. Instantiated.</strong> Modules simply cannot be instantiated.This is a key difference to classes, where classes are absolutely 100% instantiated enabling class variables to be accessed across class methods.</li>
+
+					<li><strong>Modules containing classes - namespacing</strong> Namespacing is what happens when you put classes inside of your modules. Namespacing is useful for separating different parts of your programme.</li>
+
+					<li><strong>But classes can include Modules too = proxy superclass!</strong> When a class includes a module, a proxy superclass is generated that provides access to all the module methods as well as the class methods.</li>
+
+					<li><strong>Module and class pecking order</strong> In Ruby's object hierarchy, the class object actually inherits from the module object. This is just another way of rephrasing point number 2.</li>
+
+
+					<li><strong>Objects vs functions</strong> Classes are about objects. They contain a set of instances of the class, or object, with methods that define the behaviour of said object. Modules are not about objects, they are about functions that can be used across all classes.</li>
+
+					<li><strong>Inheritance</strong> In the case of classes, set methods inherit behaviours from the main class or object and instances of the class. In the instance of methods, there is no inheritance or streamlining of behaviours across classes.</li>
+
+					<li>Please find below a lovely table that summarises my above points:</li>
+					
+			
+			<img class = "extra_photos" src = "images/class-vs_module.jpg.png"/>
+
+
+			<div class="other_blogs">
+				<hr>
+				<p>
+					READ MORE | <a href="week1_technicalblog.html">Blog 1</a> | <a href="week1_culturalblog.html">Blog 2</a> | <a href="week2_technical.html">Blog 3</a> | <a href="week3_technical.html">Blog 4</a> | <a href="week3_cultural.html">Blog 5</a>  | <a href="week4_cultural_blog.html">Blog 6</a> | <a href="week4_technical.html">Blog 7</a> | <a href="week5_technical.html">Blog 8</a> | <a href="week5_cultural.html">Blog 9</a>  | <a href = "week6_technical.html">Blog 10</a> | <a href="week6_cultural_blog">Blog 11</a> | <a href="week7_technical.html">Blog 12</a> | <a href="week7_cultural.html">Blog 13</a>
+				</p>
+				
+			</div>
+
+		</section>
+		
+		
+		<footer>	
+			<p>Thanks for reading my blog. Feel like having a chat? Send me an <a href="mailto:jasmin.mayfield@gmail.com">email</a>.</p>
+		</footer>
+		
+	</body>
+	</html>
