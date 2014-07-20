@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Blog Blog Blog</title>
+		<title>SQL vs NoSQL</title>
 		<link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/week7_technical.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
@@ -31,41 +32,33 @@
 		    		<li><a href="http://www.linkedin.com/pub/jasmin-mayfield/18/690/242"><i class="fa fa-linkedin"></i></a></li>
 		    		<li><a href="https://www.facebook.com/jasminmayfield"><i class="fa fa-facebook-square"></i></a></li>
 		    	</ul>
-			</header>
-	
-		
-			
-			<h2>HEADER</h2>
+			</header><br>
 
-			<h3>HEADER</h3>
+			<h1>SQL vs NoSQL</h1>
+
+			<p>Before we dive nose first into this blog, let's start off with understanding what a database management system is. Databases are essentially storage spaces for all kinds of different information and database management systems manage these spaces. There are two major schools of database management systems - SQL (Structured Query Language) and NoSQL (Not Only Structured Query Language).
+
+			<h3>RELATIONAL DATABASES and SQL</h3>
+
+			<p>Relational databases use SQL as a programming language to create, modify and extract information from a database. The database is made of tables. You can link or join tables together to extract related information as and when needed. SQL is known to be fairly easy to learn and understand, consisting mainly of English statements or 'queries'. Some examples of SQL systems include Oracle, MySQL, and SQL Server, SQLite.</p>
+
+			<h3>NoSQL</h3>	
+
+			<p>NoSQL encompasses a wide variety of different database technologies (including SQL) and was developed in response to a rise in the volume of data stored about users, objects and products, the frequency in which this data is accessed, and performance and processing needs. Some notable implementations of NoSQL are Facebook's Cassandra database, Google's BigTable and Amazon's SimpleDB and Dynamo.</p>
+
+			<h3>KEY DIFFERENCES / PROS and CONS</h3>
 				<ol class="reasons_list">
-					<li><strong>listlistlist</strong> listlistlist</li>
+					<li><strong>STRUCTURE and SCHEMA</strong> SQL databases are structured with predefined schema in the form of rows/fields held within a set table. Schemas must be defined before you can add extra data. NoSQL databases are totally different, comprised of structured, semi-structured and unstructured data. They are document based, with key-value pairs, graph databases or wide-column stores, and do not have standard schema definitions. Let's look at an example of an e-commerce site to better understand the pros and cons of each. The relational database requires that schemas be defined before additional data can be added. This enforces forward-planning which is good, but it can mean "more work" when dealing with future modifications to our site. In an SQL environment let's say our database fields include a customer's name, address, telephone number and payment details. But now our marketing team suddenly wants to personalize the product so it's tailored/more specific to each customer so when they log in to the site they are presented with similar options to their previous purchases. In order to do this we'll need to include a "history of items purchased" or "favourites" field to track and store this information. This involves a bit more work when working with SQL databases, where you'd need to add the new column to the database and then migrate the entire database to the new schema - this can be a slow process and involve downtime which can be large if the database itself is large. As an alternative, NoSQL databases are built to allow easy insertion of data without a predefined schema. This provides greater flexibility with instant changes made in real-time with no downtime, which means development is faster and less database administrator time is needed.</li>
+					<li><img id = "extra_image1" src="http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/00000/6000/900/6921/6921.strip.gif"/></li>
+					<li><strong>SCALABILITY</strong> SQL databases are vertically scalable. NoSQL databases are horizontally scalable. SQL databases are scaled by increasing the horse-power of the hardware. NoSQL databases are scaled by increasing the databases servers in the pool of resources to reduce the load.</li>
+					<li><strong>SPEED</strong> Joins in relational databases can slow the system down to a crawl, especially when millions of users are doing lookups against tables with millions of rows of data. Google and Amazon found this to be the case, and thus developed their own non-relational systems.</strong></li>
+					<li><strong>SUPPORT</strong> SQL has heavy support resources per SQL database vendor as it is the older, more evolved query language of the two, whereas NoSQL is newer and still growing, therefore support lies in the form of online and communities.</li>
 
-					<li><strong>listlistlist.</strong> listlistlist</li>
-					<li><strong>listlistlist</strong> listlistlist</li>
-				</ol>
-
-				<p>
-					<strong>Paragraph</strong>Paragraph<br>
-
-					<strong>Paragraph</strong>Paragraph<br>
-				</p>
-
-		
 			
-			<h3>HEADER</h3>
-			<ol class="reasons_list">
-				<li><strong>listlistlist</strong> listlistlist</li>
+			<h3>My ten cents</h3>
+			<p>I've enjoyed working with SQL this week. It seems pretty straight-forward and structured which has made it easier to learn. It's been great to learn about the two different management systems and I would be interested in trying my hand at NoSQL. If I had to give a preference for the purposes of answering the question "which one makes me excited", I'd say NoSQL - as it seems wonderfully complex and a bit of a black hole. If I was to put my excitement to the side and put my practical hat on, I'd say that I'm pretty content in furthering my knowledge and application of SQL for now, while I continue to learn the ropes as a newb. I'd like to really grasp SQL first before diving into the other. So my answer in terms of learning (and winning hopefully), for now, is SQL. Go deep, quality over quantity.</p>
 
-				<li><strong>listlistlist.</strong> listlistlist</li>
-				<li><strong>listlistlist</strong> listlistlist</li>
-			</ol>
-
-			<p>
-				<strong>Paragraph</strong>Paragraph<br>
-
-				<strong>Paragraph</strong>Paragraph<br>
-			</p>
+			<img id = "extra_image2" src="http://www.pinaldave.com/bimg/dilbert5.jpg"/>
 
 			<div class="other_blogs">
 				<hr>

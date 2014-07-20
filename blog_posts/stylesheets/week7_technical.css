@@ -1,0 +1,17 @@
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+ol {
+	list-style-type: none;
+	padding-left: 15px;
+}
+#extra_image1 {
+	height: 250px;
+}
+#extra_image2 {
+	height: 280px;
+	padding-right: 40px;
+}

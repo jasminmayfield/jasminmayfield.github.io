@@ -1,0 +1,19 @@
+.stand_out {
+	font-family: 'Pacifico', cursive;
+	line-height: 40px;
+	color: black;
+	font-size: 40px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 30px;
+}
+h3 {
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	padding-left: 15px;
+}
+.extra_images {
+	padding-left: 145px;
+	height: 500px;
+}
