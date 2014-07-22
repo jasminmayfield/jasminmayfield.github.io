@@ -1,0 +1,9 @@
+.stand_out {
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Poiret One', cursive;
+	line-height: 40px;
+	color: black;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 30px;
+}
