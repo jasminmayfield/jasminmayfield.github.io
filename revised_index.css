@@ -2,7 +2,7 @@ header#topbanner {
 	border-bottom: 2px solid rgb(255,255,0);
 	background-color: #212121;
 	color: white;
-	padding: 20px;
+	padding: 300px;
 }
 
 header h1 {
@@ -19,15 +19,18 @@ header #tagline {
 	color:#979AAA;
 }
 
+header #about_me {
+	font-size: 20px;
+	line-height: 150%;
+}
+
 #portfolio {
 	background-color: #212121;
 	background-image: url(http://www.lanrentuku.com/savepic/img/allimg/1206/5-120601095335-50.jpg);
 	/*background-image: url(http://listography.com/user/0278885991/list/2276615575/attachment/c);*/
 }
 
-.init { 
-	border-bottom: dashed white 1px;
-}
+
 
 body {
 	font-family: 'Quicksand', sans-serif;

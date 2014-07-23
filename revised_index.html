@@ -3,6 +3,7 @@
 <head>
 	<title>Jasmin Mayfield Index</title>
 
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
  	<script type="text/javascript" href="blog_posts/javascript/revised_index.js"></script>
  	<script>console.log('ok, this works');</script>
@@ -10,18 +11,28 @@
 console.log('Ready!');
 
 	$('#section_to_hide').hide();
+	$('#about_me').hide();
 
 
 	$('#portfolio_title').mouseenter(function(){
-		$('#section_to_hide').slideDown();
+		$('#section_to_hide').slideDown('slow');
 		$('#portfolio_title').removeClass('#init');
-		$('.project').addClass('init');
 	});
 
+	// $('#tagline').mouseenter(function(){
+	// 	$('#about_me').show():
+	// }):
+		
+
+
+	// // 		$(this).animate({
+	// //     	height: "600px"
+	// //   	});
 
 
 });</script>
 	
+	<link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="revised_index.css">
 	<link href='http://fonts.googleapis.com/css?family=Cinzel:400,700' rel='stylesheet' type='text/css'>
@@ -40,7 +51,23 @@ console.log('Ready!');
 		<div class = "init" id="portfolio_title">
 			<h1>PORTFOLIO</h1>
 		</div>
-		<p id="tagline">JASMIN MAYFIELD</p>
+		
+		<div id="tagline">
+			<p>JASMIN MAYFIELD</p>
+		<div><!-- <br> -->
+		<div id="about_me">
+				<p>I'm a front-end unicorn designer-in-training.</p>
+				<p>When I'm not busy being a unicorn you will usually find me eating.</p>
+				<p>I love dogs and MAC products (both the tech and make-up variety)</p>
+				<p>I love travelling the world especially with my favouritist obsession and beloved little boy - Fox Mayfield.</p>
+		</div>
+				<!-- <ul id="social_buttons">
+		    		<li><a href="http://twitter.com/jasminmayfield"><i class="fa fa-twitter-square"></i></a></li>
+		    		<li><a href="http://www.linkedin.com/pub/jasmin-mayfield/18/690/242"><i class="fa fa-linkedin"></i></a></li>
+		    		<li><a href="https://www.facebook.com/jasminmayfield"><i class="fa fa-facebook-square"></i></a></li>
+		    	</ul>
+		 -->
+
 		<div class="clear"></div>
 	</header>
 	
