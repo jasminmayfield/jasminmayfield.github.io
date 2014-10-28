@@ -27,3 +27,4 @@ Week 7:
 Weeks 8 & 9:
 - Revision
 
+Each week we wrote a technical and a cultural blog, links can be found via my PORTFOLIO page.
